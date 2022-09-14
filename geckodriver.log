@@ -1,0 +1,11 @@
+1662592043851	geckodriver	INFO	Listening on 127.0.0.1:37411
+1662592046925	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "37412" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Ade\\AppData\\Local\\Temp\\rust_mozprofilek50UAY"
+1662592048167	Marionette	INFO	Marionette enabled
+1662592048180	Marionette	INFO	Listening on port 37423
+WebDriver BiDi listening on ws://localhost:37412
+Read port: 37423
+1662592048530	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Ade\\AppData\\Local\\Temp\\rust_mozprofilek50UAY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:37412/devtools/browser/3c1715a5-3772-439a-89a4-ff73b73bbf9a
+1662592053066	Marionette	INFO	Stopped listening on port 37423
+[Parent 13388, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
